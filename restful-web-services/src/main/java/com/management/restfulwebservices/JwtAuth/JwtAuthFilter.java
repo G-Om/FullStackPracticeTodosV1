@@ -32,9 +32,9 @@ public class JwtAuthFilter extends OncePerRequestFilter {
 		}
 		jwtToken = authHeader.substring(7);			// As Bearer has 6 letters
 		username = "something"; // TODO to be implemented
-//		if(username != null && SecurityContextHolder.getContext().getAuthentication() == null) {
-//			UserDetails userDetails = userDetailsService .
-//		}
+		if(username != null && SecurityContextHolder.getContext().getAuthentication() == null) {
+			UserDetails userDetails = userDetailsService .
+		}
 		
 	}
 }
