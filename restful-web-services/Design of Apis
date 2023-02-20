@@ -1,0 +1,13 @@
+Resources  to create
+
+Retrieve All Todos for a User
+GET: /users/{user_name}/todos
+
+Delete Todos For a user
+DELETE: /users/{username}/todos/{todo_id}
+
+Edit Todos for a user
+PUT: /users/{username}/todos/{todo_id}
+
+Create  a new Todo
+POST: /users/{username}/todos/
